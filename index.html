@@ -1,189 +1,208 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Xiwen Zhang</title>
-<style>
-	li{margin: 10px 0;}
-</style>
+<meta name="description" content="Xiwen Zhang works on machine learning and the systems that run it: protein structure prediction, fast image generation and language models.">
+<meta property="og:title" content="Xiwen Zhang">
+<meta property="og:description" content="Machine learning and systems research: protein structure prediction, fast image generation and language models.">
+<meta property="og:url" content="https://xiwenzhang.dev/">
+<meta property="og:image" content="https://xiwenzhang.dev/image/og.jpg">
+<link rel="canonical" href="https://xiwenzhang.dev/">
+<link rel="icon" href="image/favicon.png">
+<link rel="apple-touch-icon" href="image/apple-touch-icon.png">
+<link rel="preload" href="fonts/literata-latin.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="style.css">
 </head>
+<body class="en">
 
-<body>
+<div class="top">
+<div class="wrap">
+  <header class="topbar">
+    <span></span>
+    <nav>
+      <a href="#research">Research</a>
+      <a href="#teaching">Teaching</a>
+      <a class="optional" href="#education">Education</a>
+      <a href="tutoring.html" lang="zh">中文</a>
+    </nav>
+  </header>
 
-<font face = "Georgia">	
-	<center>	
-	<table border=0 cellpadding=0 cellspacing=0 width=800 >
-		<tr>
-			<td colspan=4 ><img src="image/temp1.png" border=0 ></td>
-		</tr>
-		<tr>
-			<td valign="bottom">
-				<img src="image/temp2.png" border=0 >
-			</td>
-			<td width=30 >
-				
-			</td>
-			<td width=220 >
-				<img src="image/photo.jpg" width = "148">
-			</td>
-			
-			<td width=500 >
-				<font face="Arial"> <b><font size="5">Xiwen Zhang (张曦文)</font></b><p>
-				PhD Student<br>
-				School of Computer Science<br>
-				Georgia Institute of Technology<br></p><p>
-				Email: <font size="2"><b>xiwenzhang AT gatech DOT edu</b></font> <br>
-				Phone: (765)426-6858 <br>
-				Office: 3337 KABC, 266 Ferst Drive, Atlanta, GA 30332<br>
-								
-			</td>
-		</tr>
-		<tr>
-			<td width="50">
-			</td>
-			<td width="750" height="20" colspan="3" align="left" valign="top">
-				<hr>
-			</td>
-		</tr>
+  <div class="hero">
+    <img class="portrait" src="image/photo.jpg" alt="Xiwen Zhang">
+    <div>
+      <h1>Xiwen Zhang <span class="alt-name" lang="zh">张曦文</span></h1>
+      <p class="lede">I work on machine learning and the systems that run it: protein structure prediction, fast image generation, and language models that reason well or run on small devices. These days I mostly teach computer science, one-on-one.</p>
+      <div class="actions">
+        <a class="btn" href="mailto:xiwen.zhang.1995@gmail.com">Email</a>
+        <a class="btn" href="https://scholar.google.com/citations?user=9ArsuzwAAAAJ&amp;hl=en">Google Scholar</a>
+        <a class="btn primary" href="tutoring.html" lang="zh">中文辅导主页</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
-		<tr>
-			<td width="50">
-			</td>
-			<td width="750" height="20" colspan="3" align="left" valign="top">
-				
-				I'm a PhD student in the School of Computer Science at Georgia Tech. My advisor is <a href="https://www.cc.gatech.edu/~atumanov/">Prof. Alexey Tumanov</a>.
-				Before joining Georgia Tech, I got my Master degree from Purdue University, working with <a href="https://engineering.purdue.edu/~xzl/"> Prof. Felix Xiaozhu Lin </a>. 
-				
-				<h2>Research</h2>
-				
-				I am interested in systems support for machine learning and data analytics. 
-				More specifically, I am currently working on a distributed dataframe processing framework with support for heterogeneity. 
-				Frameworks like Pandas are popular, easy to use, and efficient when processing medium-size datasets (500 MB).
-				However, since most parts of Pandas are single-threaded, it cannot support interactive data analysis on large datasets (10GB).
-				To solve this problem, we are developing a drop-in replacement for Pandas, which imitates Pandas' API, but can efficiently utilize all the available hardware resources (CPUs and GPUs) in a system, so that data scientists can do exploratory data analysis (EDA) on much larger datasets.
+<div class="wrap">
+  <section id="about">
+    <div class="measure">
+      <h2>About</h2>
+      <p style="margin-top:12px">I studied Electronic Science and Technology at Shanghai Jiao Tong University, then received my M.S. in ECE from Purdue University, where I worked with <a href="https://engineering.purdue.edu/~xzl/">Prof. Felix Xiaozhu Lin</a> on video analytics for IoT cameras. I then joined the CS Ph.D. program at Georgia Tech, advised by <a href="https://www.cc.gatech.edu/~atumanov/">Prof. Alexey Tumanov</a>, and am currently on leave.</p>
+      <p>Since then I have worked in industry research, first as a research scientist at an AI drug discovery startup, and later at a GPU company on research collaborations with research institutes.</p>
+    </div>
+  </section>
 
+  <section id="research">
+    <div class="section-head">
+      <h2>Research</h2>
+      <span class="aside">Full list on <a href="https://scholar.google.com/citations?user=9ArsuzwAAAAJ&amp;hl=en">Google Scholar</a></span>
+    </div>
 
-				<!-- <ul>
-					<li> AI systems on resource-constrained devices, e.g., smartphones, wearables, and IoT cameras. </li>
-					<li> Building next-generation public edge platforms to push datacenters closer to end users. </li>
-					<li> Designing and optimizing mobile systems for better performance, privacy, and user experience. </li>
-				</ul> -->
-				
-                <!-- <h3>Research Group: <a href="#">Give A Name!</a> </h3> -->
-                
-                <h2>Conference Publications</h2> <a href="https://scholar.google.com/citations?user=9ArsuzwAAAAJ&hl=en"> Google Scholar</a> 
-				<ul>
-					
-					<p> <strong style="color: red"> [MobiSys'20] </strong>
-						<a href="files/MobiSys-Elf.pdf">Approximate Query Service on Autonomous IoT Cameras</a> </br>
-					Mengwei Xu, <b>Xiwen Zhang</b>, Yunxin Liu, Gang Huang, Xuanzhe Liu, Felix Xiaozhu Lin. </br>
-					In <i> Proceedings of the International Conference on Mobile Systems, Applications and Services. Acceptance rate = 19.4% (34/175). </i> </br>
-					<!-- <a href="projects/elf.html">[website]</a> -->
-					<a href="https://arxiv.org/abs/1909.00841">[arxiv version]</a>
-					<!-- <a href="files/MobiSys-Elf-slides.pdf">[slides]</a> -->
-					<!-- <a href="https://www.youtube.com/watch?v=VVzbM0LmwNw">[presentation]</a> -->
-					<!-- <a href="https://www.youtube.com/watch?v=x2z_pm3FiD0">[short video]</a> </br> -->
-					<!-- &emsp; <small>-- Be intelligent and autonomous, my dear camera.</small> -->
-					
-				</ul>
+    <article class="thread">
+      <figure>
+        <img src="image/research/protein.jpg" alt="Predicted protein structure overlaid on the experimental structure">
+        <figcaption>OmegaFold's prediction (purple) over the experimental structure (green) for CAMEO target 7EBQ:A.</figcaption>
+      </figure>
+      <div>
+        <h3>Proteins</h3>
+        <p class="desc">Predicting a protein's 3D shape from its amino-acid sequence, and what mutations do to it. OmegaFold makes high-resolution predictions from a single sequence, without the multiple sequence alignments that AlphaFold2 depends on. FastFold makes AlphaFold training and inference faster on GPU clusters. In a study of influenza neuraminidase, lab measurements of more than 6,000 mutations agreed well with fitness inferred by a protein language model.</p>
+        <div class="paper">
+          <a class="title" href="https://doi.org/10.1101/2022.07.21.500999">High-Resolution de novo Structure Prediction from Primary Sequence (OmegaFold)</a>
+          <span class="authors">Ruidong Wu, Fan Ding, Rui Wang, Rui Shen, <span class="me">Xiwen Zhang</span>, Shitong Luo, Chenpeng Su, Zuofan Wu, Qi Xie, Bonnie Berger, Jianzhu Ma, Jian Peng</span>
+          <span class="meta"><span class="venue">bioRxiv 2022</span><a href="https://doi.org/10.1101/2022.07.21.500999">Paper</a></span>
+        </div>
+        <div class="paper">
+          <a class="title" href="https://arxiv.org/abs/2203.00854">FastFold: Optimizing AlphaFold Training and Inference on GPU Clusters</a>
+          <span class="authors">Shenggan Cheng, Xuanlei Zhao, Guangyang Lu, Jiarui Fang, Tian Zheng, Ruidong Wu, <span class="me">Xiwen Zhang</span>, Jian Peng, Yang You</span>
+          <span class="meta"><span class="venue">PPoPP 2024</span><a href="https://arxiv.org/abs/2203.00854">arXiv</a><a href="https://github.com/hpcaitech/FastFold">GitHub</a></span>
+        </div>
+        <div class="paper">
+          <a class="title" href="https://doi.org/10.1016/j.celrep.2022.111951">Mutational Fitness Landscape of Human Influenza H3N2 Neuraminidase</a>
+          <span class="authors">Ruipeng Lei, Andrea Hernandez Garcia, Timothy J.C. Tan, Qi Wen Teo, Yiquan Wang, <span class="me">Xiwen Zhang</span>, Shitong Luo, Satish K. Nair, Jian Peng, Nicholas C. Wu</span>
+          <span class="meta"><span class="venue">Cell Reports 2023</span><a href="https://doi.org/10.1016/j.celrep.2022.111951">Paper</a></span>
+        </div>
+      </div>
+    </article>
 
-				<ul>
-					
-					<p> <strong style="color: red"> [SPAWC'19] </strong>
-						<a href="files/spawc19.pdf"> Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection</a> </br>
-					<b>Xiwen Zhang</b>, Tolunay Seyfi, Shengtai Ju, Sharan Ramjee, Aly El Gamal, Yonina C Eldar </br>
-					In <i> 2019 IEEE 20th International Workshop on Signal Processing Advances in Wireless Communications (SPAWC). </i> </br>
-					<a href="https://arxiv.org/pdf/1905.08054.pdf">[arxiv version]</a>
+    <article class="thread">
+      <figure>
+        <img src="image/research/diffusion.jpg" alt="Diagram: reflow straightens trajectories so one-step generation succeeds" loading="lazy">
+        <figcaption>Reflow straightens the paths from noise to image, so a one-step model can learn them.</figcaption>
+      </figure>
+      <div>
+        <h3>Fast image generation</h3>
+        <p class="desc">Diffusion models turn noise into an image over many small steps. InstaFlow uses rectified flow to straighten that path, which makes it possible to distill Stable Diffusion into a generator that needs only one step.</p>
+        <div class="paper">
+          <a class="title" href="https://arxiv.org/abs/2309.06380">InstaFlow: One Step Is Enough for High-Quality Diffusion-Based Text-to-Image Generation</a>
+          <span class="authors">Xingchao Liu, <span class="me">Xiwen Zhang</span>, Jianzhu Ma, Jian Peng, Qiang Liu</span>
+          <span class="meta"><span class="venue">ICLR 2024</span><a href="https://arxiv.org/abs/2309.06380">arXiv</a><a href="https://github.com/gnobitab/InstaFlow">GitHub</a></span>
+        </div>
+      </div>
+    </article>
 
-				</ul>
+    <article class="thread">
+      <figure>
+        <img src="image/research/language.jpg" alt="Plot of responses per query, by query difficulty" loading="lazy">
+        <figcaption>With Prop2Diff, DART-Math collects more responses for harder questions (hardest on the left).</figcaption>
+      </figure>
+      <div>
+        <h3>Language models</h3>
+        <p class="desc">Training models to reason better, in math and across text and images, and measuring how small language models actually run on phones and other edge devices.</p>
+        <div class="paper">
+          <a class="title" href="https://arxiv.org/abs/2412.17451">Diving into Self-Evolving Training for Multimodal Reasoning</a>
+          <span class="authors">Wei Liu, Junlong Li, <span class="me">Xiwen Zhang</span>, Fan Zhou, Yu Cheng, Junxian He</span>
+          <span class="meta"><span class="venue">ICML 2025</span><a href="https://arxiv.org/abs/2412.17451">arXiv</a><a href="https://github.com/hkust-nlp/mstar">GitHub</a></span>
+        </div>
+        <div class="paper">
+          <a class="title" href="https://aclanthology.org/2025.acl-long.718/">Demystifying Small Language Models for Edge Deployment</a>
+          <span class="authors">Zhenyan Lu, Xiang Li, Dongqi Cai, Rongjie Yi, Fangming Liu, Wei Liu, Jian Luan, <span class="me">Xiwen Zhang</span>, Nicholas D. Lane, Mengwei Xu</span>
+          <span class="meta"><span class="venue">ACL 2025</span><a href="https://aclanthology.org/2025.acl-long.718/">Paper</a><a href="https://github.com/UbiquitousLearning/SLM_Survey">GitHub</a></span>
+        </div>
+        <div class="paper">
+          <a class="title" href="https://arxiv.org/abs/2407.13690">DART-Math: Difficulty-Aware Rejection Tuning for Mathematical Problem-Solving</a>
+          <span class="authors">Yuxuan Tong, <span class="me">Xiwen Zhang</span>, Rui Wang, Ruidong Wu, Junxian He</span>
+          <span class="meta"><span class="venue">NeurIPS 2024</span><a href="https://arxiv.org/abs/2407.13690">arXiv</a><a href="https://github.com/hkust-nlp/dart-math">GitHub</a></span>
+        </div>
+        <p class="also">Also: <a href="https://arxiv.org/abs/2411.05046">PhoneLM: An Efficient and Capable Small Language Model Family through Principled Pre-training</a> (arXiv 2024) and <a href="https://arxiv.org/abs/2503.18435">On the Perception Bottleneck of VLMs for Chart Understanding</a> (arXiv 2025).</p>
+      </div>
+    </article>
 
-				<ul>
-					
-					<p> <strong style="color: red"> [VIS'19] </strong>
-						<a href="files/vis19.pdf"> FeatureExplorer: Interactive feature selection and exploration of regression models for hyperspectral images</a> </br>
-					Jieqiong Zhao, Morteza Karimzadeh, Ali Masjedi, Taojun Wang, <b>Xiwen Zhang</b>, Melba M Crawford, David S Ebert </br>
-					In <i> 2019 IEEE Visualization Conference (VIS). </i> </br>
-					<a href="https://arxiv.org/pdf/1908.00671.pdf">[arxiv version]</a>
-					
-				</ul>
+    <article class="thread">
+      <figure>
+        <img src="image/research/early.jpg" alt="Diagram of how Elf schedules counting on a camera within an energy budget" loading="lazy">
+        <figcaption>Elf plans how a camera counts objects over time within an energy budget.</figcaption>
+      </figure>
+      <div>
+        <h3>Earlier work</h3>
+        <p class="desc">Video analytics on energy-constrained IoT cameras, deep learning for identifying wireless interference, and visual analytics for hyperspectral images.</p>
+        <div class="paper">
+          <a class="title" href="files/MobiSys-Elf.pdf">Approximate Query Service on Autonomous IoT Cameras</a>
+          <span class="authors">Mengwei Xu, <span class="me">Xiwen Zhang</span>, Yunxin Liu, Gang Huang, Xuanzhe Liu, Felix Xiaozhu Lin</span>
+          <span class="meta"><span class="venue">MobiSys 2020</span><a href="files/MobiSys-Elf.pdf">PDF</a><a href="https://arxiv.org/abs/1909.00841">arXiv</a></span>
+        </div>
+        <div class="paper">
+          <a class="title" href="files/spawc19.pdf">Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection</a>
+          <span class="authors"><span class="me">Xiwen Zhang</span>, Tolunay Seyfi, Shengtai Ju, Sharan Ramjee, Aly El Gamal, Yonina C. Eldar</span>
+          <span class="meta"><span class="venue">IEEE SPAWC 2019</span><a href="files/spawc19.pdf">PDF</a><a href="https://arxiv.org/abs/1905.08054">arXiv</a></span>
+        </div>
+        <div class="paper">
+          <a class="title" href="files/vis19.pdf">FeatureExplorer: Interactive Feature Selection and Exploration of Regression Models for Hyperspectral Images</a>
+          <span class="authors">Jieqiong Zhao, Morteza Karimzadeh, Ali Masjedi, Taojun Wang, <span class="me">Xiwen Zhang</span>, Melba M. Crawford, David S. Ebert</span>
+          <span class="meta"><span class="venue">IEEE VIS 2019</span><a href="files/vis19.pdf">PDF</a><a href="https://arxiv.org/abs/1908.00671">arXiv</a></span>
+        </div>
+        <p class="also">Also: <a href="https://arxiv.org/abs/2005.01446">Deep Learning for Frame Error Prediction using a DARPA Spectrum Collaboration Challenge (SC2) Dataset</a> (IEEE Networking Letters 2021) and <a href="https://arxiv.org/abs/1912.11896">Efficient Training of Deep Classifiers for Wireless Source Identification using Test SNR Estimates</a> (IEEE Wireless Communications Letters 2020).</p>
+      </div>
+    </article>
+  </section>
+</div>
 
-				<!-- <h2>Journal Publications</h2> -->
-				<!-- <ul>
-					<p> <strong style="color: red"> [JoS'20] </strong>
-						<a href="http://www.jos.org.cn/1000-9825/6064.htm">Autonomous Learning System towards Mobile Intelligence (in Chinese)</a> </br>
-					<b> Mengwei Xu, </b> Yuanqiang Liu, Kang Huang, Xuanzhe Liu, Gang Huang. </br>
-					<i> Journal of Software. </i> </br>
-					
-					<p> <strong style="color: red"> [TMC'19] </strong>
-						<a href="files/TMC-DeepWear.pdf">DeepWear: Adaptive Local Offloading for On-Wearable Deep Learning</a> </br>
-					<b> Mengwei Xu, </b> Feng Qian, Mengze Zhu, Feifan Huang, Saumay Pushp, Xuanzhe Liu. </br>
-					<i> IEEE Transactions on Mobile Computing. </i> </br>
-					&emsp; <small>-- Your wearables deserve deep learning as well!</small>
+<section id="teaching" class="band">
+  <div class="wrap">
+    <div class="inner">
+      <div class="measure">
+        <h2>Teaching</h2>
+        <p style="margin-top:12px">Alongside research, I have taught more than 3,000 hours of one-on-one lessons in university computer science, math and statistics. That covers 150+ courses at 40+ universities, for students in Australia, the UK, Hong Kong, Singapore and North America.</p>
+        <p style="margin:0">I start from where a student is stuck, explain down to the mechanism, and move on only once they can explain it back.</p>
+      </div>
+      <div class="bridge" lang="zh">
+        <h3>给同学和家长</h3>
+        <p>教过哪些课、怎么上课、怎么联系我，都写在中文辅导主页上。</p>
+        <a class="btn primary" href="tutoring.html">打开中文辅导主页</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-					<p> <strong style="color: red"> [TMC'17] </strong>
-						<a href="files/TMC-ShuffleDog.pdf">ShuffleDog: Characterizing and Adapting User-Perceived Latency of Android App.</a> </br>
-					Gang Huang, <b> Mengwei Xu, </b> Felix Xiaozhu Lin, Yun Ma, Yunxin Liu, Saumay Pushp, Xuanzhe Liu. </br>
-					<i> IEEE Transactions on Mobile Computing. </i> </br>
-					&emsp; <small>-- Multi-task GPU scheduling on smartphones. </small>
-					
-					<p> <strong style="color: red"> [TSC'16] </strong>
-						<a href="http://ieeexplore.ieee.org/document/7762930/">MUIT: A Domain-Specific Language and its Middleware for Adaptive Mobile Web-based User Interfaces in WS-BPEL. </a> </br>
-					Xuanzhe Liu, <b> Mengwei Xu, </b> Teng Teng, Gang Huang, Hong Mei. </br>
-					<i> IEEE Transactions on Services Computing. </i>
-				</ul> -->
+<div class="wrap">
+  <section id="education" style="padding-top:56px">
+    <h2>Education</h2>
+    <div class="edu">
+      <div class="edu-row">
+        <span class="school">Georgia Institute of Technology</span>
+        <span class="degree">Ph.D. program in Computer Science, on leave</span>
+        <span class="place">Atlanta, GA</span>
+      </div>
+      <div class="edu-row">
+        <span class="school">Purdue University</span>
+        <span class="degree">M.S. in Electrical and Computer Engineering</span>
+        <span class="place">West Lafayette, IN</span>
+      </div>
+      <div class="edu-row">
+        <span class="school">Shanghai Jiao Tong University</span>
+        <span class="degree">B.S. in Electronic Science and Technology</span>
+        <span class="place">Shanghai</span>
+      </div>
+    </div>
+  </section>
+</div>
 
-				<!-- <h2>Academic Services</h2> -->
-				<!-- <ul>
-					TPC Member, MobiSys Rising Stars Forum, 2019; </br>
-					Reviewer, ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT); </br>
-					Reviewer, IEEE Transactions on Mobile Computing (TMC); </br>
-					Reviewer, IEEE Transactions on Service Computing (TSC); </br>
-					External reviewer, WWW 2019/2018/2017; KDD 2018/2017; CIKM 2018; etc.
-				</ul> -->
-				
-				<!-- <h2>Honors and Awards</h2>
-				<ul>
-				  <li> National Scholarship (Ministry of Education, China), 2018
-				  <li> Stars of Tomorrow Internship Program (MSRA), 2016
-				  <li> Presidential Scholarship (Peking University), 2015 ~ 2017
-				  <li> Outstanding Gradudate of Beijing, 2015
-				  <li> Outstanding Gradudate of Peking University, 2015
-				</ul> -->
-				
-
-				<!-- <h2>Teaching</h2> -->
-				<!-- <ul>
-				  <li> TA with Distributed Machine Learning Systems at Peking University (Fall 2019)
-				  <li> TA with Operating System Practice at Peking University (Fall 2016, Spring 2017)
-				  <li> TA with Introduction to Computing at Peking University (Fall 2014, 2016)
-				  <li> TA with Foundations of Computer Application at Peking University (Spring 2015)
-				</ul> -->
-
-				<!-- <h3>Misc</h3>
-				I love playing basketball and NBA. I also like animals; I am living with a very cute dog named Hot Pot (火锅). My girlfriend & me have been maintaining a <a href="https://weibo.com/u/6626932936?nick=%E7%81%AB%E9%94%85%E5%B0%8F%E8%90%8C%E7%8A%AC"> weibo account </a> for him where we post his daily activities (photos & videos). Let's follow him :) -->
-				
-				
-				<hr>
-				<i>Last Updated: Sep. 2020</i>
-
-				<!-- <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=wjHbP2LUt-8TGu8-T8FTOYU801A-7HsZ4JgvzBifFXA&cl=ffffff&w=a"></script> -->
-				
-			</td>
-		</tr>
-	</table>
-	</center>
-</font>
-
-<!-- <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-4474198-2");
-pageTracker._trackPageview();
-} catch(err) {}
-</script> -->
+<footer>
+  <div class="wrap">
+    <a href="mailto:xiwen.zhang.1995@gmail.com">xiwen.zhang.1995@gmail.com</a>
+    <span>Updated November 2026</span>
+  </div>
+</footer>
 
 </body>
-
 </html>
